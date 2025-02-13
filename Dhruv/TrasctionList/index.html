@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduChain - Transaction List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-left">
+      <h1>EduChain</h1>
+      <ul class="nav-links">
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Certifications</a></li>
+        <li><a href="#">Badges</a></li>
+        <li><a href="#">Grades</a></li>
+      </ul>
+    </div>
+    <div class="navbar-right">
+      <button id="connect-wallet">Connect EduWallet</button>
+      <span id="wallet-address" class="wallet-address"></span>
+    </div>
+  </nav>
+
+  <!-- Token Balance Section -->
+  <div class="token-balance-container">
+    <h2>Your Token Balances</h2>
+    <div class="token-balance-box">
+      <div class="token-balance">
+        <span class="token-name">EDU</span>
+        <span class="token-amount" id="edu-balance">0.0</span>
+      </div>
+      <div class="token-balance">
+        <span class="token-name">CERT</span>
+        <span class="token-amount" id="cert-balance">0.0</span>
+      </div>
+      <div class="token-balance">
+        <span class="token-name">BADGE</span>
+        <span class="token-amount" id="badge-balance">0.0</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Transaction List Section -->
+  <div class="transaction-container">
+    <h2>Recent Transactions</h2>
+    <div class="transaction-list" id="transaction-list">
+      <!-- Transactions will be dynamically added here -->
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="wallet.js"></script>
+  <script src="tokenBalances.js"></script>
+  <script src="transactionList.js"></script>
+</body>
+</html>
