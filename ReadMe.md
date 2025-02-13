@@ -14,7 +14,7 @@ Follow the steps carefully to contribute correctly.
 ### 1️⃣ Clone the Repository  
 First, open your terminal and run the following command to get a copy of the project on your system:  
 
-```bash
+
 git clone https://github.com/dhruv457457/Web3-Universal-Template_HIS
 
 ###  Create Your Own Folder
