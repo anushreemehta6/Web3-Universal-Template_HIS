@@ -1,0 +1,120 @@
+/* styles.css */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #6200ee;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  #connect-wallet {
+    background-color: #03dac6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #connect-wallet:hover {
+    background-color: #018786;
+  }
+  
+  /* Swap Container Styles */
+  .swap-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .swap-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Token Input Styles */
+  .token-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .token-input input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 60%;
+  }
+  
+  .token-input select {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #f4f4f9;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Swap Button Styles */
+  #swap-button {
+    background-color: #6200ee;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  #swap-button:hover {
+    background-color: #3700b3;
+  }
+  
+  /* Swap Details Styles */
+  .swap-details {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  /* Confirm Swap Button Styles */
+  #confirm-swap {
+    background-color: #03dac6;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  #confirm-swap:hover {
+    background-color: #018786;
+  }
