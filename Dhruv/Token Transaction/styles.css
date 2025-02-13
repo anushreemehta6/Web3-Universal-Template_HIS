@@ -1,0 +1,31 @@
+/* Basic styling for the Token Balance Section */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.container {
+  margin: 50px auto;
+  width: 300px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.balance-section {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
