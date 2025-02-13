@@ -1,0 +1,50 @@
+/* Transaction List Styles */
+.transaction-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .transaction-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .transaction-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .transaction-type {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .transaction-amount {
+    font-size: 14px;
+    color: #2E7D32; /* Green for positive transactions */
+  }
+  
+  .transaction-amount.negative {
+    color: #D32F2F; /* Red for negative transactions */
+  }
+  
+  .transaction-date {
+    font-size: 12px;
+    color: #666;
+  }
