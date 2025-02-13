@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Token Swap Interface</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h1>Web3 Camp</h1>
+    <button id="connect-wallet">Connect Wallet</button>
+  </nav>
+
+  <!-- Token Swap Interface -->
+  <div class="swap-container">
+    <h2>Token Swap</h2>
+    <div class="swap-box">
+      <!-- From Token Section -->
+      <div class="token-input">
+        <label for="from-amount">From</label>
+        <input type="number" id="from-amount" placeholder="0.0">
+        <select id="from-token">
+          <option value="ETH">ETH</option>
+          <option value="BTC">BTC</option>
+          <option value="USDT">USDT</option>
+        </select>
+      </div>
+
+      <!-- Swap Button -->
+      <button id="swap-button">↓ Swap ↓</button>
+
+      <!-- To Token Section -->
+      <div class="token-input">
+        <label for="to-amount">To</label>
+        <input type="number" id="to-amount" placeholder="0.0" disabled>
+        <select id="to-token">
+          <option value="USDT">USDT</option>
+          <option value="ETH">ETH</option>
+          <option value="BTC">BTC</option>
+        </select>
+      </div>
+
+      <!-- Swap Details -->
+      <div class="swap-details">
+        <p>Exchange Rate: <span id="exchange-rate">1 ETH = 2000 USDT</span></p>
+        <p>Gas Fee: <span id="gas-fee">0.001 ETH</span></p>
+      </div>
+
+      <!-- Confirm Swap Button -->
+      <button id="confirm-swap">Confirm Swap</button>
+    </div>
+  </div>
+
+  <!-- JavaScript Files -->
+  <script src="config.js"></script> <!-- For ABI and Contract Address -->
+  <script src="wallet.js"></script> <!-- For Wallet Connection -->
+  <script src="script.js"></script> <!-- Main Logic -->
+</body>
+</html>
