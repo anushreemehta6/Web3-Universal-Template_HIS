@@ -27,28 +27,28 @@ cd <repo-name>
 mkdir your-name
 
 
-## 🚨 Important Rules:
+# 🚨 Important Rules:
 
-# Do NOT copy-paste someone else’s work.
-# Work only inside your own folder.
-# Keep your code clean and readable.
-# Use proper file and folder naming conventions.
+### Do NOT copy-paste someone else’s work.
+### Work only inside your own folder.
+### Keep your code clean and readable.
+### Use proper file and folder naming conventions.
     
-## Work on Frontend Templates (HTML, CSS, JS)
-# Your task is to create at least 2 frontend templates per day. It is not that hard, and it's a great way to improve your skills! 💪
+# Work on Frontend Templates (HTML, CSS, JS)
+### Your task is to create at least 2 frontend templates per day. It is not that hard, and it's a great way to improve your skills! 💪
 
-# ⚡ What You Should Use:
-# HTML, CSS, JavaScript
-# Bootstrap (optional)
-## Try adding Web3 Components (if possible)
+### ⚡ What You Should Use:
+### HTML, CSS, JavaScript
+### Bootstrap (optional)
+# Try adding Web3 Components (if possible)
 
-# 🌐 Web3 Components to Try (Optional):
+### 🌐 Web3 Components to Try (Optional):
  try implementing basic Web3 components you can use AI such as:
 
-# Connect Wallet Button (using MetaMask)
-# Simple Smart Contract Interaction
-# Fetching Blockchain Data (ETH balance, transactions)
+### Connect Wallet Button (using MetaMask)
+### Simple Smart Contract Interaction
+### Fetching Blockchain Data (ETH balance, transactions)
   
   
-  ### 💡 Tip: If you’re a complete beginner, check out some of my templates in my folder (Dhruv) for reference before starting.
+  # 💡 Tip: If you’re a complete beginner, check out some of my templates in my folder (Dhruv) for reference before starting.
 
