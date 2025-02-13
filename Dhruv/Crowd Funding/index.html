@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web3 Crowdfunding</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.5.0/web3.min.js"></script>
+
+</head>
+<body>
+    <header id="header"></header>
+
+    <main>
+        <h1>Web3 Crowdfunding</h1>
+        <button id="connectWallet">Connect Wallet</button>
+        <p id="walletAddress"></p>
+
+        <h2>Create a Campaign</h2>
+        <input type="number" id="targetAmount" placeholder="Target Amount (ETH)">
+        <input type="number" id="duration" placeholder="Duration (Days)">
+        <button onclick="createCampaign()">Create</button>
+
+        <h2>Contribute to a Campaign</h2>
+        <input type="number" id="campaignId" placeholder="Campaign ID">
+        <input type="number" id="amount" placeholder="Amount (ETH)">
+        <button onclick="contribute()">Contribute</button>
+
+        <h2>Withdraw Funds</h2>
+        <input type="number" id="withdrawCampaignId" placeholder="Campaign ID">
+        <button onclick="withdrawFunds()">Withdraw</button>
+
+        <h2>Get Campaign Details</h2>
+        <input type="number" id="detailsCampaignId" placeholder="Campaign ID">
+        <button onclick="getCampaignDetails()">Get Details</button>
+        <p id="campaignDetails"></p>
+    </main>
+
+    <footer id="footer"></footer>
+    <script src="js/web3.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
