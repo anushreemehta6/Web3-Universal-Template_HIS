@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web3 Hub - Navbar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <h1>Web3 Hub</h1>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Swap</a></li>
+        <li><a href="#">Stake</a></li>
+        <li><a href="#">NFTs</a></li>
+        <li class="dropdown">
+          <a href="#">More ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">DAO</a></li>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="navbar-right">
+      <button id="connect-wallet"> Connect Wallet
+      </button>
+      <span id="wallet-address" class="wallet-address"></span>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <h2>Welcome to Web3 Hub!</h2>
+    <p>Use the Navbar to navigate through the dApp.</p>
+  </div>
+
+  <script src="connectwallet.js"></script>
+</body>
+</html>
