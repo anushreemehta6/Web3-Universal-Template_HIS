@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Marketplace</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f1f6;
+            color: #333;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fddde6;
+            padding: 15px 30px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+        .nav-links li {
+            display: inline;
+        }
+        .nav-links a {
+            color: #6d597a;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            transition: 0.3s;
+            padding: 8px 12px;
+        }
+        .nav-links a:hover {
+            color: #ffcad4;
+            background: rgba(255, 255, 255, 0.4);
+            border-radius: 5px;
+        }
+        .wallet-button {
+            background: linear-gradient(135deg, #ffcad4, #ffafcc);
+            color: white;
+            border: none;
+            padding: 12px 18px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: 0.3s;
+            box-shadow: 0px 3px 8px rgba(255, 165, 0, 0.2);
+        }
+        .wallet-button:hover {
+            background: linear-gradient(135deg, #ffafcc, #ffcad4);
+            box-shadow: 0px 4px 12px rgba(255, 165, 0, 0.3);
+        }
+        .nft-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px;
+            gap: 20px;
+        }
+        .nft-card {
+            background: #ffdde1;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .nft-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .nft-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 4px 15px rgba(255, 175, 204, 0.5);
+        }
+        .nft-title {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #6d597a;
+        }
+        .buy-button {
+            margin-top: 10px;
+            background: linear-gradient(135deg, #ffafcc, #ffcad4);
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .buy-button:hover {
+            background: linear-gradient(135deg, #ffcad4, #ffafcc);
+        }
+        .nft-details {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #6d597a;
+        }
+        .filter-container {
+            text-align: center;
+            margin: 20px;
+        }
+        .filter-button {
+            padding: 10px 15px;
+            margin: 5px;
+            background: #ffcad4;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .filter-button:hover {
+            background: #ffafcc;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">My NFTs</a></li>
+            <li><a href="#">Sell</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <button class="wallet-button">Connect Wallet</button>
+    </nav>
+    <div class="filter-container">
+        <button class="filter-button">All</button>
+        <button class="filter-button">Trending</button>
+        <button class="filter-button">New</button>
+        <button class="filter-button">Price: Low to High</button>
+        <button class="filter-button">Price: High to Low</button>
+    </div>
+    <section class="nft-container">
+        <div class="nft-card">
+            <img src="https://via.placeholder.com/250" alt="NFT Image">
+            <div class="nft-title">NFT #001</div>
+            <div class="nft-details">Price: 0.5 ETH | Owner: User1</div>
+            <button class="buy-button">Buy Now</button>
+        </div>
+        <div class="nft-card">
+            <img src="https://via.placeholder.com/250" alt="NFT Image">
+            <div class="nft-title">NFT #002</div>
+            <div class="nft-details">Price: 1.2 ETH | Owner: User2</div>
+            <button class="buy-button">Buy Now</button>
+        </div>
+        <div class="nft-card">
+            <img src="https://via.placeholder.com/250" alt="NFT Image">
+            <div class="nft-title">NFT #003</div>
+            <div class="nft-details">Price: 0.8 ETH | Owner: User3</div>
+            <button class="buy-button">Buy Now</button>
+        </div>
+    </section>
+</body>
+</html>
