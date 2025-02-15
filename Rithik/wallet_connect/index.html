@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web3 Crypto Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar with Logo, Crypto Options, and Wallet Connect Button -->
+    <header class="navbar">
+        <div class="logo">
+            <h1>Web3</h1>
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#">Token Swap</a></li>
+                <li><a href="#">Staking</a></li>
+                <li><a href="#">Transaction History</a></li>
+                <li><a href="#">Token Price List</a></li>
+            </ul>
+        </nav>
+        <button id="wallet-connect-btn" class="action-button">Connect Wallet</button>
+    </header>
+
+    <!-- Content Container -->
+    <div class="container">
+        <!-- Wallet Address Display -->
+        <div id="wallet-info" class="section">
+            <h2>Wallet Information</h2>
+            <p id="wallet-address">No wallet connected</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Web3 Crypto Dashboard | Powered by Web3 Technology</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
