@@ -1,0 +1,105 @@
+/* About Page Styles */
+.about {
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #007BFF;
+  }
+  
+  .about .intro {
+    font-size: 18px;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.8;
+  }
+  
+  .about .mission {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .about .mission h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about .mission p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .about .mission ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .about .mission ul li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .about .mission ul li::before {
+    content: "•";
+    color: #007BFF;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+  }
+  
+  .about .team {
+    margin-top: 40px;
+  }
+  
+  .about .team h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .about .team-members {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .about .team-member {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+  }
+  
+  .about .team-member img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .about .team-member h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .about .team-member p {
+    font-size: 14px;
+    color: #777;
+  }
