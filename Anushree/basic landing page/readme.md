@@ -4,14 +4,14 @@ Overview
 
 This is a simple landing page template built using HTML, CSS, and JavaScript.
 
-Features
+## Features
 
-Navigation Bar
+1. Navigation Bar
 
-Hero Section with Call-to-Action
+2. Hero Section with Call-to-Action
 
-About Section
+3. About Section
 
-Contact Form
+4. Contact Form
 
-Smooth Scrolling Effect
+5. Smooth Scrolling Effect

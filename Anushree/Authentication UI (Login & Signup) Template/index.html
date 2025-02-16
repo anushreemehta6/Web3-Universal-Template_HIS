@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #ffedd8;
+            color: #493129;
+        }
+        .auth-container {
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f8dec7;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            color: #8b597b;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #8b597b;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #efa3a0;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #8b597b;
+        }
+        .toggle-link {
+            display: block;
+            margin-top: 10px;
+            color: #8b597b;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function toggleAuth(mode) {
+            document.getElementById('login-form').style.display = mode === 'login' ? 'block' : 'none';
+            document.getElementById('signup-form').style.display = mode === 'signup' ? 'block' : 'none';
+        }
+    </script>
+</head>
+<body>
+    <div class="auth-container">
+        <div id="login-form">
+            <h2>Login</h2>
+            <form>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <span class="toggle-link" onclick="toggleAuth('signup')">Don't have an account? Sign Up</span>
+        </div>
+        
+        <div id="signup-form" style="display: none;">
+            <h2>Sign Up</h2>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+            <span class="toggle-link" onclick="toggleAuth('login')">Already have an account? Login</span>
+        </div>
+    </div>
+</body>
+</html>
