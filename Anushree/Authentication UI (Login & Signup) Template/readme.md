@@ -6,3 +6,5 @@ This project provides a simple Authentication Page with a Login and Signup form 
 2. Login & Signup toggle functionality
 3. Styled using a Sunset-themed color palette
 4. Fully responsive
+
+![alt text](image.png)

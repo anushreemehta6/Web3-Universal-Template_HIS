@@ -15,3 +15,5 @@ This is a simple landing page template built using HTML, CSS, and JavaScript.
 4. Contact Form
 
 5. Smooth Scrolling Effect
+
+![alt text](image.png)
